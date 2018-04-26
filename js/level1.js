@@ -8,6 +8,7 @@ function loadLevel1(Q) {
         var mario = stage.insert(new Q.Mario());
         var goomba = stage.insert(new Q.Goomba());
         var bloopa = stage.insert(new Q.Bloopa());
+        //var piranha = stage.insert(new Q.Piranha());
         var princess = stage.insert(new Q.Princess());
 
         var coin1 = stage.insert(new Q.Coin({ x: 200, y: 450 }));
